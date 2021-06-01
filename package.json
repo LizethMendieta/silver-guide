@@ -1,0 +1,30 @@
+{
+  "name": "apirest",
+  "version": "1.0.0",
+  "description": "\"# silver-guide\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizethMendieta/silver-guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LizethMendieta/silver-guide/issues"
+  },
+  "homepage": "https://github.com/LizethMendieta/silver-guide#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "expess": "^0.0.1-security",
+    "mongoose": "^5.12.12",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
