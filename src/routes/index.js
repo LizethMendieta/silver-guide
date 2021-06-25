@@ -17,8 +17,7 @@ router.post('/add', async(req, res) => {
     //res.send('lizeth')
     const valor = new Valor(req.body);
     await valor.save();
-
-    res.render('index2.ejs', { val });
+    res.render('index2.ejs', { valor });
     // res.redirect('/');
     //res.json(req.body);
 });
