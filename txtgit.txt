@@ -6,3 +6,13 @@ git branch -M main
 git remote add origin https://github.com/LizethMendieta/silver-guide.git
 https://github.com/LizethMendieta/iot.git
 git push -u origin main
+
+
+
+echo "# glowing-couscous" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LizethMendieta/glowing-couscous.git
+git push -u origin main
